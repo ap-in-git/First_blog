@@ -1,0 +1,196 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 25, 2016, 2:52:54 PM
+    Author     : ashok
+*/
+@font-face{font-family: Salbo27;
+  src:url("Slabo27.ttf");
+
+}
+@font-face{
+  font-family:shadow;
+  src:url("shadow.ttf")
+}
+body{
+    background-color: #c3c3c3;
+    margin:0px;
+    padding: 0px;
+     width:100%;
+}
+h1{
+    margin: 0px;
+    padding: 0px;
+}
+
+.message{
+  margin-bottom: 15px;
+    font-weight:bold;
+   background-color:#efefef;
+    text-align: center;
+}
+
+#wrapper{
+    width: 960px;
+    margin: 0px auto;
+}
+#main{min-height:600px;}
+
+#header{
+    background-color: #565656;
+}
+#header  h1{
+    display: inline-block;
+    text-align: Center;
+    color:white;
+    margin:10px 0 0 300px;
+}
+#footer{
+    background-color:#0f0f0f;
+}
+#nav{background-color:#efefef;text-align: center;}
+
+.clearfix{clear:both;}
+
+ul.span{margin:0px auto; padding-left:50px;display:inline-block; }
+
+li.span{float:left;list-style-type: none; border:1px solid blue; border-radius: 2px;margin:5px; background-color: blue; padding:5px;}
+li.span.a{
+    background-color: black;
+}
+
+li.span a{color:white;}
+
+#footer{background: #1A446C;  color: #D4E6F4;height:30px;text-align:center;}
+
+
+
+
+a{text-decoration: none;}
+.baula{
+    float:left;
+    width:70px;
+   min-height:200px;
+   border:1px;
+   margin:0px 0.5px 0 0.5px;
+    
+}
+
+/*css for Logout*/
+.logout{
+    float:right;
+    display: block;
+    padding: 14px;
+    background-color: white;
+    color: black;
+}/*Ending of css for logout*/
+
+/*----------------------Starting of Css for baula c----------------------------*/
+
+
+.baula.c{
+   
+   min-height:300px;
+   width:592px;
+}
+.post{border-top:1px solid black; max-width: 560px; margin:10px 17px 10px 17px;}
+
+
+.post .title{
+  font-family: salbo27;
+
+    font-size: 40px;
+     margin:15px;   
+}
+.image{
+    margin: 0px 0px 15px 15px;
+    
+}
+.image img{
+  width:520px;
+   border:1px solid  black;
+   
+    
+}
+.short_description{
+    margin:15px;
+    font-family: shadowsintolight;
+    font-size: 25px;
+}
+.more{
+    display: inline-block;
+    margin:0px 0px 15px 200px;
+
+    
+  
+        
+}
+.more a{
+    color:white;
+}
+.more h4{
+        background-color:#8bc34a;
+    margin: 0px 5px 0px 5px;
+    padding: 0px;
+    display:inline-block;
+      padding: 10px;
+}
+
+/*-------------------------Ending of baula c---------------------------------*/
+
+/*---------------------Starting Of css for baula d--------------------------*/
+.baula.d{
+    background-color:rgb(158, 158, 158);
+    width:295px;
+   /*min-height:200px;*/
+}
+.rectangle{
+    
+}
+.circle {
+  width:254px;
+   display: inline-block;
+   margin:20px;
+}
+.circle img{
+     width:250px;
+   
+    border: 2px dashed black;
+    border-radius: 50%;
+}
+.description{
+  font-family: salbo27;
+    text-align: center;
+    Font-size:20px;
+}
+ /*----------Ending of css for baula d--------------------*/
+.rectangle h1{
+    font-size: 20px;
+    margin:10px 0px 2px 60px;
+}
+.Change{
+    margin: 10px 0px 5px 70px
+}
+.readyimage{
+    margin:20px 0 25px 135px;
+}
+.readyimage  img{
+    max-width: 650px;
+    border:1px solid;
+    border-color: black;
+}
+/*css for description of the post*/
+.posttitle{
+  margin:15px 0 0 50px;
+  font-family: salbo27;
+  font-size: 40px;
+}
+.content{
+  font-family: shadow;
+  font-size: 25px;
+  margin-bottom: 90px;
+  border-bottom: 1px solid black;
+}
